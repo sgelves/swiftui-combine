@@ -1,0 +1,146 @@
+[
+    {
+        "name": "Turtle Rock",
+        "gender": "male",
+        "city": "Twentynine Palms",
+        "state": 1,
+        "id": 1001,
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "imageName": "explicit"
+    },
+    {
+        "name": "Silver Salmon Creek",
+        "gender": "male",
+        "city": "Port Alsworth",
+        "state": 1,
+        "id": 4,
+        "coordinates": {
+            "longitude": -152.665167,
+            "latitude": 59.980167
+        },
+        "imageName": "explicit"
+    },
+    {
+        "name": "Chilkoot Trail",
+        "gender": "male",
+        "city": "Skagway",
+        "state": 1,
+        "id": 5,
+        "coordinates": {
+            "longitude": -135.334571,
+            "latitude": 59.560551
+        },
+        "imageName": "explicit"
+    },
+    {
+        "name": "St. Mary Lake",
+        "gender": "male",
+        "city": "Browning",
+        "state": 1,
+        "id": 8,
+        "coordinates": {
+            "longitude": -113.536248,
+            "latitude": 48.69423
+        },
+        "imageName": "explicit"
+    },
+    {
+        "name": "Twin Lake",
+        "gender": "male",
+        "city": "Twin Lakes",
+        "state": 1,
+        "id": 11,
+        "coordinates": {
+            "longitude": -153.849883,
+            "latitude": 60.641684
+        },
+        "imageName": "explicit"
+    },
+    {
+        "name": "Lake McDonald",
+        "gender": "male",
+        "city": "West Glacier",
+        "state": 1,
+        "id": 6,
+        "coordinates": {
+            "longitude": -113.934831,
+            "latitude": 48.56002
+        },
+        "imageName": "explicit"
+    },
+    {
+        "name": "Charley Rivers",
+        "gender": "male",
+        "city": "Eaking",
+        "state": 1,
+        "id": 1,
+        "coordinates": {
+            "longitude": -143.122586,
+            "latitude": 65.350021
+        },
+        "imageName": "explicit"
+    },
+    {
+        "name": "Icy Bay",
+        "gender": "male",
+        "city": "Icy Bay",
+        "state": 1,
+        "id": 2,
+        "coordinates": {
+            "longitude": -141.518167,
+            "latitude": 60.089917
+        },
+        "imageName": "explicit"
+    },
+    {
+        "name": "Rainbow Lake",
+        "gender": "male",
+        "city": "Willow",
+        "state": 1,
+        "id": 3,
+        "coordinates": {
+            "longitude": -150.086103,
+            "latitude": 61.694334
+        },
+        "imageName": "explicit"
+    },
+    {
+        "name": "Hidden Lake",
+        "gender": "male",
+        "city": "Newhalem",
+        "state": 2,
+        "id": 7,
+        "coordinates": {
+            "longitude": -121.17799,
+            "latitude": 48.495442
+        },
+        "imageName": "explicit"
+    },
+    {
+        "name": "Chincoteague",
+        "gender": "male",
+        "city": "Chincoteague",
+        "state": 3,
+        "id": 9,
+        "coordinates": {
+            "longitude": -75.383212,
+            "latitude": 37.91531
+        },
+        "imageName": "explicit"
+    },
+    {
+        "name": "Lake Umbagog",
+        "gender": "male",
+        "city": "Errol",
+        "state": 2,
+        "id": 10,
+        "coordinates": {
+            "longitude": -71.056816,
+            "latitude": 44.747408
+        },
+        "imageName": "explicit"
+     }
+]

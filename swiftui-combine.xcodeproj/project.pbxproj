@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4946DB7922E3D1E400196C19 /* ProfileListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4946DB7822E3D1E400196C19 /* ProfileListService.swift */; };
+		494CF94822E400AF003EDC32 /* LoadFileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494CF94722E400AF003EDC32 /* LoadFileHelper.swift */; };
+		494CF94D22E4038A003EDC32 /* profilesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 494CF94C22E4038A003EDC32 /* profilesData.json */; };
+		494CF94F22E40A11003EDC32 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 494CF94E22E40A11003EDC32 /* landmarkData.json */; };
+		494CF95122E40A48003EDC32 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494CF95022E40A48003EDC32 /* Landmark.swift */; };
+		494CF95522E4124E003EDC32 /* ProfilesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494CF95422E4124E003EDC32 /* ProfilesList.swift */; };
 		494DC85422E374B000C632D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DC85322E374B000C632D2 /* AppDelegate.swift */; };
 		494DC85622E374B000C632D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DC85522E374B000C632D2 /* SceneDelegate.swift */; };
 		494DC85922E374B000C632D2 /* swiftui_combine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 494DC85722E374B000C632D2 /* swiftui_combine.xcdatamodeld */; };
-		494DC85B22E374B000C632D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DC85A22E374B000C632D2 /* ContentView.swift */; };
+		494DC85B22E374B000C632D2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DC85A22E374B000C632D2 /* ProfileView.swift */; };
 		494DC85D22E374B400C632D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494DC85C22E374B400C632D2 /* Assets.xcassets */; };
 		494DC86022E374B400C632D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494DC85F22E374B400C632D2 /* Preview Assets.xcassets */; };
 		494DC86322E374B400C632D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494DC86122E374B400C632D2 /* LaunchScreen.storyboard */; };
 		494DC86E22E374B400C632D2 /* swiftui_combineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DC86D22E374B400C632D2 /* swiftui_combineTests.swift */; };
 		494DC87922E374B400C632D2 /* swiftui_combineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DC87822E374B400C632D2 /* swiftui_combineUITests.swift */; };
+		494DC88722E3B99F00C632D2 /* PictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DC88622E3B99F00C632D2 /* PictureView.swift */; };
+		494DC88922E3BE1D00C632D2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DC88822E3BE1D00C632D2 /* MapView.swift */; };
+		494DC89122E3D04600C632D2 /* ProfileRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DC89022E3D04600C632D2 /* ProfileRow.swift */; };
+		494DC89922E3D10D00C632D2 /* ProfileItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494DC89822E3D10D00C632D2 /* ProfileItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +46,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4946DB7822E3D1E400196C19 /* ProfileListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileListService.swift; path = "../../../../../../../../System/Volumes/Data/Users/sergio/mobile/swiftui-combine/swiftui-combine/Main/Services/ProfilesList/ProfileListService.swift"; sourceTree = "<group>"; };
+		494CF94722E400AF003EDC32 /* LoadFileHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoadFileHelper.swift; path = "../../../../../../../System/Volumes/Data/Users/sergio/mobile/swiftui-combine/swiftui-combine/Main/Helper/LoadFileHelper.swift"; sourceTree = "<group>"; };
+		494CF94C22E4038A003EDC32 /* profilesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = profilesData.json; sourceTree = "<group>"; };
+		494CF94E22E40A11003EDC32 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		494CF95022E40A48003EDC32 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Landmark.swift; path = "../../../../../../../System/Volumes/Data/Users/sergio/mobile/swiftui-combine/swiftui-combine/Main/Entity/Landmark.swift"; sourceTree = "<group>"; };
+		494CF95422E4124E003EDC32 /* ProfilesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfilesList.swift; path = "../../../../../../../../System/Volumes/Data/Users/sergio/mobile/swiftui-combine/swiftui-combine/Modules/ProfilesList/View/ProfilesList.swift"; sourceTree = "<group>"; };
 		494DC85022E374B000C632D2 /* swiftui-combine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-combine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		494DC85322E374B000C632D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		494DC85522E374B000C632D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		494DC85822E374B000C632D2 /* swiftui_combine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = swiftui_combine.xcdatamodel; sourceTree = "<group>"; };
-		494DC85A22E374B000C632D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		494DC85A22E374B000C632D2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		494DC85C22E374B400C632D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		494DC85F22E374B400C632D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		494DC86222E374B400C632D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +67,10 @@
 		494DC87422E374B400C632D2 /* swiftui-combineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftui-combineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		494DC87822E374B400C632D2 /* swiftui_combineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_combineUITests.swift; sourceTree = "<group>"; };
 		494DC87A22E374B400C632D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494DC88622E3B99F00C632D2 /* PictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureView.swift; sourceTree = "<group>"; };
+		494DC88822E3BE1D00C632D2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		494DC89022E3D04600C632D2 /* ProfileRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileRow.swift; path = "../../../../../../../../System/Volumes/Data/Users/sergio/mobile/swiftui-combine/swiftui-combine/Modules/ProfilesList/View/ProfileRow.swift"; sourceTree = "<group>"; };
+		494DC89822E3D10D00C632D2 /* ProfileItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileItem.swift; path = "../../../../../../../System/Volumes/Data/Users/sergio/mobile/swiftui-combine/swiftui-combine/Main/Entity/ProfileItem.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +98,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		494CF94622E40083003EDC32 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				494CF94722E400AF003EDC32 /* LoadFileHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		494CF94922E401B9003EDC32 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				494CF94C22E4038A003EDC32 /* profilesData.json */,
+				494CF94E22E40A11003EDC32 /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		494DC84722E374B000C632D2 = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +138,11 @@
 		494DC85222E374B000C632D2 /* swiftui-combine */ = {
 			isa = PBXGroup;
 			children = (
+				494CF94922E401B9003EDC32 /* Resources */,
+				494DC89622E3D0BC00C632D2 /* Main */,
+				494DC88B22E3CF4E00C632D2 /* Modules */,
 				494DC85322E374B000C632D2 /* AppDelegate.swift */,
 				494DC85522E374B000C632D2 /* SceneDelegate.swift */,
-				494DC85A22E374B000C632D2 /* ContentView.swift */,
 				494DC85C22E374B400C632D2 /* Assets.xcassets */,
 				494DC86122E374B400C632D2 /* LaunchScreen.storyboard */,
 				494DC86422E374B400C632D2 /* Info.plist */,
@@ -137,6 +176,85 @@
 				494DC87A22E374B400C632D2 /* Info.plist */,
 			);
 			path = "swiftui-combineUITests";
+			sourceTree = "<group>";
+		};
+		494DC88B22E3CF4E00C632D2 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				494DC88E22E3D02A00C632D2 /* ProfilesList */,
+				494DC88C22E3CF5600C632D2 /* Profile */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		494DC88C22E3CF5600C632D2 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				494DC88D22E3CF6600C632D2 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		494DC88D22E3CF6600C632D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				494DC85A22E374B000C632D2 /* ProfileView.swift */,
+				494DC88822E3BE1D00C632D2 /* MapView.swift */,
+				494DC88622E3B99F00C632D2 /* PictureView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		494DC88E22E3D02A00C632D2 /* ProfilesList */ = {
+			isa = PBXGroup;
+			children = (
+				494DC88F22E3D03400C632D2 /* View */,
+			);
+			path = ProfilesList;
+			sourceTree = "<group>";
+		};
+		494DC88F22E3D03400C632D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				494DC89022E3D04600C632D2 /* ProfileRow.swift */,
+				494CF95422E4124E003EDC32 /* ProfilesList.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		494DC89222E3D05B00C632D2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				494DC89322E3D06D00C632D2 /* ProfilesList */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		494DC89322E3D06D00C632D2 /* ProfilesList */ = {
+			isa = PBXGroup;
+			children = (
+				4946DB7822E3D1E400196C19 /* ProfileListService.swift */,
+			);
+			path = ProfilesList;
+			sourceTree = "<group>";
+		};
+		494DC89622E3D0BC00C632D2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				494CF94622E40083003EDC32 /* Helper */,
+				494DC89722E3D0DE00C632D2 /* Entity */,
+				494DC89222E3D05B00C632D2 /* Services */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		494DC89722E3D0DE00C632D2 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				494DC89822E3D10D00C632D2 /* ProfileItem.swift */,
+				494CF95022E40A48003EDC32 /* Landmark.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,7 +362,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				494DC86322E374B400C632D2 /* LaunchScreen.storyboard in Resources */,
+				494CF94D22E4038A003EDC32 /* profilesData.json in Resources */,
 				494DC86022E374B400C632D2 /* Preview Assets.xcassets in Resources */,
+				494CF94F22E40A11003EDC32 /* landmarkData.json in Resources */,
 				494DC85D22E374B400C632D2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,10 +390,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494DC88722E3B99F00C632D2 /* PictureView.swift in Sources */,
+				494CF95122E40A48003EDC32 /* Landmark.swift in Sources */,
+				494CF94822E400AF003EDC32 /* LoadFileHelper.swift in Sources */,
+				494DC88922E3BE1D00C632D2 /* MapView.swift in Sources */,
+				494DC89922E3D10D00C632D2 /* ProfileItem.swift in Sources */,
 				494DC85922E374B000C632D2 /* swiftui_combine.xcdatamodeld in Sources */,
 				494DC85422E374B000C632D2 /* AppDelegate.swift in Sources */,
-				494DC85B22E374B000C632D2 /* ContentView.swift in Sources */,
+				494DC85B22E374B000C632D2 /* ProfileView.swift in Sources */,
 				494DC85622E374B000C632D2 /* SceneDelegate.swift in Sources */,
+				494CF95522E4124E003EDC32 /* ProfilesList.swift in Sources */,
+				4946DB7922E3D1E400196C19 /* ProfileListService.swift in Sources */,
+				494DC89122E3D04600C632D2 /* ProfileRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
